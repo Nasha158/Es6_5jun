@@ -106,41 +106,53 @@
         </div>
         </nav>
       <p >  
-        <nav class="form-container"></div>
-          <div class="form-fn-container">
-    
-          <h6 class="title">First Name</h6>
-          </div>
-
-          <div class="form-ln-container">
-    
-          <h6 class="title">Last Name</h6>
+        <form class="form-container">
+          <div class="FirstName">
+          <label for="inputFirstName" class="form-label">First Name</label>
+          <input type="text" class="form-control" id="First Name" placeholder="Firs tName"></input>
           </div>
           
-          <div class="form-email-container">
+          <div class="LastName">
     
-          <h6 class="title">Email Address</h6>
-          </div>
-
-          <div class="form-company-container">
+            <label for="inputLastName" class="form-label">Last Name</label>
+            <input type="LastName" class="form-control" id="Last Name" placeholder="Last Name"></input>
+            </div>
+          
+          <div class="EmailAddress">
     
-          <h6 class="title">Company Name</h6>
-          </div>
+            <label for="inputEmailAddress" class="form-label">Email Address</label>
+            <input type="text" class="form-control" id="EmailAddress" placeholder="Email Address"></input>
+            </div>
 
-          <div class="form-phonenumber-container">
-            <img
+          <div class="CompanyName">
+    
+            <label for="inputCompanyName" class="form-label">Company Name</label>
+            <input type="text" class="form-control" id="CompanyName" placeholder="Company Name"></input>
+            </div>
+
+          <div class="phonenumber"
+          
             width="20px"
             src="./assets/images/png-transparent-uruguay-flag-icon.png"
             alt="Bandera Uruguaya"
-          />
-    
-          <h6 class="title">Phone number</h6>
-          </div>
+            >
 
-          <div class="form-message-container">
-    
-          <h6 class="title">Message</h6>
+            <label for="phonenumber" class="form-label">Phone Number</label>
+            <input type="text" class="form-control" id="phonenumber" placeholder="Phone Number"></input>
+            </div>
+
+          <div class="Message"
+               style="height: 137px;
+               width: 400px;
+               left: 14px;
+               top: 385px;
+               border-radius: 5px;
+               padding: 9px 12px 0px 16px;
+               ">
+            <label for="inputMessage" class="form-label">Message</label>
+            <input type="text" class="form-control" id="Message" placeholder="Message"></input>
           </div>
+  
         
           <div class="login">
             <button class="button violet" onclick="login('Send')">Send</button>        
