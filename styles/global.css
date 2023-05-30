@@ -1,3 +1,14 @@
+/* Design*/
+
+#header {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 700;
+  display: flex;
+}
+
+/* Design*/
+
 #parrafos {
   font-family: "Inter";
   font-style: normal;
@@ -11,14 +22,21 @@
 }
 
 #message.form-control {
-  margin: 553,126,155,635;
+  margin: 553, 126, 155, 635;
 }
 
 /* Design*/
-body {
+#body {
   font-family: "inter Tight";
 }
+#text {
+  width:198px ;
+  height: 60px;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 300;
 
+}
 /* Design System */
 .button {
   min-width: 125px;
@@ -29,6 +47,9 @@ body {
   text-decoration: none;
   transition: all 500ms ease;
   cursor: pointer;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 700;
   font-weight: bold;
 }
 
@@ -64,30 +85,20 @@ body {
   text-align: center;
 }
 
-.button {
-  min-width: 125px;
-  border: solid 1px;
-  border-radius: 5px;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  transition: all 500ms ease;
-  cursor: pointer;
-  font-weight: bold;
-}
-
 .header {
   height: 94px;
   width: 516px;
-  left: 64px;
-  top: 0px;
-  border-radius: 0px;
 }
 .header1-container {
   /* Header 1 */
+
+  left: 64px;
+  top: 0px;
+  border-radius: 0px;
+  justify-content: space-between;
+  align-items: center;
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
   padding: 0px;
   gap: 10px;
 }
@@ -106,8 +117,12 @@ body {
   position: absolute;
   width: 153px;
   height: 37px;
-  left: 337px;
-  top: 29px;
+  left: 580px;
+  top: 2px;
+  justify-content: flex-end;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
 }
 
 /* Menu */
@@ -128,28 +143,48 @@ body {
   display: none;
 }
 
-.container {
+.ubication-container {
   display: flex;
-  width: 100%;
-  max-width: 1200px;
-  margin: 77;
-  flex-direction: row;
-  align-content: center;
-  align-items: baseline;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 10px;
+  justify-content: space-between;
+  width: 205px;
+  height: 300px;
 }
 
-.main-container {
-  width: 100%;
+.container1{
+  display:flex;
+  align-items: start;
 }
 
-.aside-container {
-  width: 30%;
+.container2{
+  display:flex;
+  align-items: start;
 }
+
+.title-example1 {
+  height: 22px;
+  width: 127px;
+  left: 0px;
+  top: 0px;
+  border-radius: nullpx;
+}
+
+.title-example2{
+  height: 22px;
+  width: 54px;
+  left: 0px;
+  top: 0px;
+  border-radius: nullpx;
+}
+
+.fone-container {
+  font-family: Inder;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
 
 /* Auto layout */
 .space-menu {
@@ -165,6 +200,48 @@ body {
   flex-direction: row;
   align-items: center;
   padding: 0px;
+}
+
+.tittle {
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39px;
+  letter-spacing: 0em;
+  text-align: left;
+  align-items: center;
+}
+
+.sub-title {
+  display: flex;
+  align-items: center;
+  text-align: justify;
+}
+.img-container {
+  width: 488px;
+  height: 175px;
+}
+
+.img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.p1-container {
+  height: 62px;
+  width: 468px;
+  left: 0px;
+  top: 18px;
+  border-radius: nullpx;
+}
+
+.p2-container {
+  height: 106.28570556640625px;
+  width: 468px;
+  left: 0px;
+  top: 30.857177734375px;
+  border-radius: nullpx;
 }
 
 /* Form */
