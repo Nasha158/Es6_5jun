@@ -1,4 +1,27 @@
+* {
+  background: #e7cff2;
+  border-radius: 20px;
+  margin: 89px, 140px, 90px, 139px;
+  padding: 1161px, 845px;
+  box-sizing: border-box;
+  }
+
+
+/* Website */
+
+.website {
+  position: absolute;
+  width: 1161px;
+  height: 845px;
+  left: 139px;
+  top: 89px;
+}
+
 /* Design*/
+
+.myclass {
+  background: background1, background2;
+}
 
 #header {
   font-family: Inter;
@@ -6,8 +29,16 @@
   font-weight: 700;
   display: flex;
 }
+#header1-container {
+  height: 94px;
+  width: 516px;
+}
 
-/* Design*/
+#header2-container {
+  height: 94px;
+  width: 516px;
+  left: 580px;
+}
 
 #parrafos {
   font-family: "Inter";
@@ -25,17 +56,16 @@
   margin: 553, 126, 155, 635;
 }
 
-/* Design*/
 #body {
+
   font-family: "inter Tight";
 }
 #text {
-  width:198px ;
+  width: 198px;
   height: 60px;
   font-family: Inter;
   font-size: 14px;
   font-weight: 300;
-
 }
 /* Design System */
 .button {
@@ -91,6 +121,9 @@
 }
 .header1-container {
   /* Header 1 */
+  background-color: white;
+  height: 94px;
+  width: 516px;
 
   left: 64px;
   top: 0px;
@@ -103,8 +136,14 @@
   gap: 10px;
 }
 
+.body {
+  background-color: white;
+  width: 1161px;
+  height: 845px;
+}
 /* LOGO */
 .logo {
+  background-color: white;
   position: absolute;
   width: 56px;
   height: 54px;
@@ -114,6 +153,7 @@
 
 /* Header 2 */
 .header2-container {
+  background-color: white;
   position: absolute;
   width: 153px;
   height: 37px;
@@ -127,6 +167,7 @@
 
 /* Menu */
 .nav-container {
+  background-color: white;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -135,6 +176,7 @@
 }
 
 .menu {
+  background-color: white;
   display: flex;
   justify-content: start;
 }
@@ -144,23 +186,27 @@
 }
 
 .ubication-container {
+  background-color: white;
   display: flex;
   justify-content: space-between;
   width: 205px;
   height: 300px;
 }
 
-.container1{
-  display:flex;
+.container1 {
+  background-color: white;
+  display: flex;
   align-items: start;
 }
 
-.container2{
-  display:flex;
+.container2 {
+  background-color: white;
+  display: flex;
   align-items: start;
 }
 
 .title-example1 {
+  background-color: white;
   height: 22px;
   width: 127px;
   left: 0px;
@@ -168,7 +214,8 @@
   border-radius: nullpx;
 }
 
-.title-example2{
+.title-example2 {
+  background-color: white;
   height: 22px;
   width: 54px;
   left: 0px;
@@ -184,7 +231,6 @@
   letter-spacing: 0em;
   text-align: left;
 }
-
 
 /* Auto layout */
 .space-menu {
@@ -203,6 +249,7 @@
 }
 
 .tittle {
+  background-color: white;
   font-family: Inter;
   font-size: 32px;
   font-weight: 700;
@@ -213,6 +260,7 @@
 }
 
 .sub-title {
+  background-color: white;
   display: flex;
   align-items: center;
   text-align: justify;
@@ -229,6 +277,7 @@
 }
 
 .p1-container {
+  background-color: white;
   height: 62px;
   width: 468px;
   left: 0px;
@@ -237,6 +286,7 @@
 }
 
 .p2-container {
+  background-color: white;
   height: 106.28570556640625px;
   width: 468px;
   left: 0px;
@@ -246,14 +296,13 @@
 
 /* Form */
 .form-container {
+  background-color: white;
   box-sizing: border-box;
-
   position: absolute;
   width: 433px;
   height: 631px;
   left: calc(50% - 433px / 2 + 257px);
   top: 168px;
-
   border: 1px solid #faf3f3;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   border-radius: 20px;
@@ -271,6 +320,7 @@
 /* First Name */
 
 .FirstName {
+  background-color: white;
   box-sizing: border-box;
   /* Auto layout */
   display: flex;
@@ -285,12 +335,13 @@
   left: 15px;
   top: 54px;
 
-  background: #fdfdfd;
+  background-color: white;
   border: 1px solid #535353;
   border-radius: 5px;
 }
 
 .title-fn {
+  background-color: white;
   position: absolute;
   width: 83px;
   height: 19px;
@@ -301,6 +352,7 @@
 /* Last Name */
 
 .LastName {
+  background-color: white;
   box-sizing: border-box;
 
   /* Auto layout */
@@ -325,6 +377,7 @@
 /* Email Address */
 
 .EmailAddress {
+  background-color: white;
   box-sizing: border-box;
 
   /* Auto layout */
@@ -349,6 +402,7 @@
 /* Company Name */
 
 .CompanyName {
+  background-color: white;
   box-sizing: border-box;
 
   /* Auto layout */
@@ -373,6 +427,7 @@
 /* Phone number */
 
 .phonenumber {
+  background-color: white;
   box-sizing: border-box;
 
   /* Auto layout */
@@ -397,6 +452,7 @@
 /* Message */
 
 .message {
+  background-color: white;
   align-items: flex-end;
   box-sizing: border-box;
 
@@ -420,10 +476,12 @@
 }
 
 .container-section {
+  background-color: white;
   margin-right: 28px;
 }
 
 .footer-container {
+  background-color: white;
   display: flex;
   justify-content: center;
 }
