@@ -1,6 +1,6 @@
+
 * {
-  background: #e7cff2;
-  border-radius: 20px;
+  
   margin: 89px, 140px, 90px, 139px;
   padding: 1161px, 845px;
   box-sizing: border-box;
@@ -295,185 +295,20 @@
 }
 
 /* Form */
+
 .form-container {
-  background-color: white;
+
   box-sizing: border-box;
   position: absolute;
   width: 433px;
   height: 631px;
-  left: calc(50% - 433px / 2 + 257px);
+  left: calc(50% - 433px/2 + 257px);
   top: 168px;
-  border: 1px solid #faf3f3;
+  border: 1px solid #FAF3F3;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   border-radius: 20px;
-  /*Font*/
-
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
-
-  color: #000000;
-}
-
-/* First Name */
-
-.FirstName {
-  background-color: white;
-  box-sizing: border-box;
-  /* Auto layout */
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 9px 16px;
-  gap: 10px;
-
-  position: absolute;
-  width: 185px;
-  height: 36px;
-  left: 15px;
-  top: 54px;
-
-  background-color: white;
-  border: 1px solid #535353;
-  border-radius: 5px;
-}
-
-.title-fn {
-  background-color: white;
-  position: absolute;
-  width: 83px;
-  height: 19px;
-  left: 14px;
-  top: 20px;
-}
-
-/* Last Name */
-
-.LastName {
-  background-color: white;
-  box-sizing: border-box;
-
-  /* Auto layout */
-
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 9px 27px;
-  gap: 10px;
-
-  position: absolute;
-  width: 200px;
-  height: 36px;
-  left: 213px;
-  top: 54px;
-
-  background: #fdfdfd;
-  border: 1px solid #535353;
-  border-radius: 5px;
-}
-
-/* Email Address */
-
-.EmailAddress {
-  background-color: white;
-  box-sizing: border-box;
-
-  /* Auto layout */
-
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 9px 16px;
-  gap: 10px;
-
-  position: absolute;
-  width: 395px;
-  height: 36px;
-  left: 15px;
-  top: 136px;
-
-  background: #fdfdfd;
-  border: 1px solid #535353;
-  border-radius: 5px;
-}
-
-/* Company Name */
-
-.CompanyName {
-  background-color: white;
-  box-sizing: border-box;
-
-  /* Auto layout */
-
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 9px 16px;
-  gap: 10px;
-
-  position: absolute;
-  width: 395px;
-  height: 36px;
-  left: 15px;
-  top: 218px;
-
-  background: #fdfdfd;
-  border: 1px solid #535353;
-  border-radius: 5px;
-}
-
-/* Phone number */
-
-.phonenumber {
-  background-color: white;
-  box-sizing: border-box;
-
-  /* Auto layout */
-
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 5px;
-  gap: 30px;
-
-  position: absolute;
-  width: 395px;
-  height: 35px;
-  left: 14px;
-  top: 304px;
-
-  background: #fdfdfd;
-  border: 1px solid #535353;
-  border-radius: 5px;
-}
-
-/* Message */
-
-.message {
-  background-color: white;
-  align-items: flex-end;
-  box-sizing: border-box;
-
-  /* Auto layout */
-
-  display: flex;
-  flex-direction: row;
-  align-items: flex-end;
-  padding: 9px 12px 0px 16px;
-  gap: 10px;
-
-  position: absolute;
-  width: 400px;
-  height: 137px;
-  left: 14px;
-  top: 385px;
-
-  background: #fdfdfd;
-  border: 1px solid #535353;
-  border-radius: 5px;
-}
+  padding: 10px;
+  }
 
 .container-section {
   background-color: white;
@@ -484,4 +319,9 @@
   background-color: white;
   display: flex;
   justify-content: center;
+}
+
+.btn btn-outline-secondary {
+  border-width: 0px;
+
 }
