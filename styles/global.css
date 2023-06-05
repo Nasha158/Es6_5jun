@@ -1,24 +1,11 @@
-
-* {
-  
-  margin: 89px, 140px, 90px, 139px;
-  padding: 1161px, 845px;
-  box-sizing: border-box;
-  }
-
-
-/* Website */
-
+/* Design*/
 .website {
   position: absolute;
   width: 1161px;
   height: 845px;
   left: 139px;
-  top: 89px;
-}
-
-/* Design*/
-
+  top: 89px;}
+  
 .myclass {
   background: background1, background2;
 }
@@ -27,7 +14,8 @@
   font-family: Inter;
   font-size: 14px;
   font-weight: 700;
-  display: flex;
+  display:flex;
+
 }
 #header1-container {
   height: 94px;
@@ -48,13 +36,7 @@
   line-height: 19px;
   display: flex;
   align-items: center;
-
-  color: rgba(0, 0, 0, 0.74);
-}
-
-#message.form-control {
-  margin: 553, 126, 155, 635;
-}
+  color: rgba(0, 0, 0, 0.74);}
 
 #body {
 
@@ -63,57 +45,35 @@
 #text {
   width: 198px;
   height: 60px;
-  font-family: Inter;
+  font-family: inter;
   font-size: 14px;
   font-weight: 300;
 }
 /* Design System */
 .button {
-  min-width: 125px;
-  border: solid 1px;
+  min-width: 76.5px;
+  height: 37px;
+  border: solid 0px;
   border-radius: 5px;
-  padding: 15px 32px;
-  text-align: center;
+  text-align:center;
   text-decoration: none;
   transition: all 500ms ease;
-  cursor: pointer;
-  font-family: Inter;
+  cursor:pointer;
   font-size: 14px;
   font-weight: 700;
   font-weight: bold;
 }
 
-.blue {
-  background-color: #623fd8;
-  border-color: #623fd8;
-  color: #fff;
+.violet {
+  background-color:#623fd8;
+  color:#fff;
 }
 
 .white {
   background-color: #fff;
 }
 
-.violet {
-  background-color: #623fd8;
-  border-color: #623fd8;
-  color: #fff;
-  background-color: #623fd8;
-  border-color: #623fd8;
-  color: #fff;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0px 91px;
-  gap: 10px;
-  position: absolute;
-  width: 400px;
-  height: 36px;
-  left: 14px;
-  top: 543px;
-  background: #623fd8;
-  border-radius: 5px;
-  text-align: center;
-}
+
 
 .header {
   height: 94px;
@@ -307,21 +267,25 @@
   border: 1px solid #FAF3F3;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   border-radius: 20px;
-  padding: 10px;
+  padding: 20px;
   }
 
 .container-section {
   background-color: white;
-  margin-right: 28px;
+  margin-right:28px;
 }
 
 .footer-container {
-  background-color: white;
-  display: flex;
-  justify-content: center;
+  background-color:white;
+  display:flex;
+  justify-content:center;}
+
+.form-control{
+  height:137px;
+  margin-top:0px;
+  margin-bottom: 15px;}
+
+#Message{
+  margin-top: 25px;
 }
 
-.btn btn-outline-secondary {
-  border-width: 0px;
-
-}
