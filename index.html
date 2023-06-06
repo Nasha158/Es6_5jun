@@ -2,184 +2,178 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <!-- Styles -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="stylesheet" href="./styles/global.css">
-
-    <!-- Fonts -->
-    <link
-      href="https://fonts.google.com/specimen/Inter+Tight?query=inter"
-      rel="stylesheet"
-      />
+    <link href="https://fonts.google.com/specimen/Inter+Tight?query=inter"rel="stylesheet"/>
     <title>Proyecto Figma Html</title>
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
   </head>
 
-  <body class="body">
-    <div class="boddy"></div>
-      <header class="header">
-        <nav class="header1-container">
-          <div class="space-menu" >
-            <img
-              width="100px"
-              src="./assets/images/logo Figma.png"
-              alt="Logo Figma"/>
-          </div>
-          <div class="space-menu" >Pricing</div>
-          <div class="space-menu">Recscurces Center</div>
-          
-          </div>
-        </nav>
-        <nav class="header2-container"
-            style="height: 94px;
-                   width: 516px;">
-          <button class="button white" onclick="login('registro')">Login</button>
-          <button class="button blue" onclick="login('inicio')">Sing Up</button>
-      </header>
+  <!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/> 
+    <link rel="stylesheet" href="./styles/global.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap" rel="stylesheet">
+    <title>Proyecto Figma Html</title>
+  </head>
+
+  <body class="body"style="border-color:#e7cff2">
     
-    <h1 class="tittle"style="
-              font-family: Inter;
-              font-size: 32px;
-              font-weight: 700;
-              line-height: 39px;
-              letter-spacing: 0em;
-              text-align: left;"
-              >Talk to our product analytics expert</h1>
-  
-  <p nav class="p1-container"
-    >Have questions about pricing plans, or Growty? Fill out the form and our product analytics expert will de in touch directly.</p>
-
-
-    <h2 class="sub-title" style="
-                          font-family: Inter;
-                          font-size: 20px;
-                          font-weight: 700;
-                          line-height: 22px;
-                          letter-spacing: 0em;
-                          text-align: justified;"
-                          > Our office</h2>
-    <br/>
-
-    <nav class="img-container">
-      <div class="img">
-      <img 
-      src="/assets/images/img working in the office.jpg"
-      alt="equipo de trabajo">
+    <header class="header-container">
+    
+    <div class="menu">
+      <div class="logo-menu">
+      <img width="100px" src="./assets/images/logo Figma.png"alt="Logo Figma">
       </div>
-    </nav>
-    <br/>
+      <nav class="space-menu">
+      <a class="space-menu">Pricing</a>
+      <a class="space-menu">Resources Center</a>
+      <a class="space-menu">About</a>
+      <a class="space-menu">Contact</a>
+      </nav>
+      </div>
+    </div>
 
-    <p id="parrafo"
-      nav class="p2-container">
-
-      Have questions about pricing plans, or Growty? Fill out the form and our product analytics expert will de in touch directly.
-    </p>
-        <nav class="ubication-container">
-          <div class="container1">
-            <p class="text-container1">
-              <h4 class="title-example1">United Kingdom</h4>
+    <div class="button-nav">
+      <div class="button-nav">
+          <button class="button white" onclick="login('registro')">Login</button>
+          <button class="button violet" onclick="login('inicio')">Sing Up</button>
+      </div>
+    </div>
+    
+    </header>
+    
+    <main class="main">
+    <h1>Talk to our product 
+      <br>analytics expert</h1>
+    <p id="parrafo" nav class="p-container">
+    Have questions about pricing plans, or Growty? Fill out the form and our product analytics expert will de in touch directly.</p>
+    <h2> Our office</h2>
+          <nav class="img-container">
+            <div class="img">
               <img
-                width="20px"
-                src="assets/images/icono ubicacion transparente-1.png"
-                alt="Icono Ubicacion"
-              />
-              30 Eastbourne Terrance
-              Paddington, London
-              W2 GLA, UK  
-                                 
-
-              <p class="fone-container">
-                <img
-                  width="20px"
-                  src="assets/images/icono telefono transparente-1.png"
-                  alt="Icono Telefono"
-                />
+              src="./assets/images/img working in the office.jpg"
+              alt="equipo de trabajo">
+            </div>
+          </nav>
+        <p class="p-container">
+      Have questions about pricing plans, or Growty? Fill out the form and our product analytics expert will de in touch directly.
+        </p>     
+  </body>
+    </main>
+      
+    <footer>
+        <div class="footer">
+          <nav class= "footer1">
+            <h5>United Kingdom</h5>
+              <img src="./assets/images/icono ubicacion transparente-1.jpg"
+                alt="icono ubicacion"
+                style="float:left; width: 15px;">
+              <p style="font-size: 10px";>
+                  30 Eastbourne Terrance
+                  Paddington, London
+                  W2 GLA, UK            
+                <img src="./assets/images/icono telefono transparente-1.jpg"
+                alt="icono telefono"
+                style="width: 15px;">
                 +441351351051
               </p>
-            </p>
-          </div>
-
-          <div id class="container2">
-            <p class="text-container2">
-              <h4 class="title-example2">France</h4>
-                <img
-                  width="20px"
-                  src="./assets/images/icono ubicacion transparente-1.png"
-                  alt="Icono Ubicacion"
-                />
-                266 Place Ernest Granier
-                34000 Montpoller
-                France         
-        
-              <p class="fone-container">
-                <img
-                  width="20px"
-                  src="assets/images/icono telefono transparente-1.png"
-                  alt="Icono Telefono"
-                  />
-                  +335121811966
+          </nav>
+          <nav class= "footer2">
+            <h5>France</h5>
+              <img src="./assets/images/icono ubicacion transparente-1.jpg"
+                alt="icono ubicacion"
+                style="float:left; width: 15px;">
+              
+              <p style="font-size: 10px";>
+                  266 Place Ernest Granier
+                  34000 Montpollier France
+                <img src="./assets/images/icono telefono transparente-1.jpg"
+                alt="icono telefono"
+                style="width: 15px;">
+                +441351351051
               </p>
-            </p>
-          </div>
-          </div>
-        </nav>
-      <p >  
-        <form class="form-container" style=
-                                    "width: 433px;
-                                    height: 631px;     
-        ">
-          <div class="FirstName">
-          <label for="inputFirstName" class="form-label">First Name</label>
-          <input type="text" class="form-control" id="First Name" placeholder="Firs tName"></input>
-          </div>
-          
-          <div class="LastName">
+          </nav>
+        </div>
+    </footer>
     
-            <label for="inputLastName" class="form-label">Last Name</label>
-            <input type="LastName" class="form-control" id="Last Name" placeholder="Last Name"></input>
-            </div>
-          
+  </body>  
+</html>
+      <div>
+
+        <form class="form-container" autocomplete="on">       
+        <div class="input-group">
+          <div class="row">
+              <div class="col">
+              <label for="FirstName" class="form-label">First Name</label>
+              <input type="FirstName" class="form-control" id="FirstName" style="height: 37px">
+              </div>
+
+              <div class="col">
+              <label for="LastName" class="form-label">Last Name</label>
+              <input type="LastName" class="form-control" id="LastName" style="height: 37px">
+              </div>
+          </div>
+        </div>
+        
           <div class="EmailAddress">
-    
-            <label for="inputEmailAddress" class="form-label">Email Address</label>
-            <input type="text" class="form-control" id="EmailAddress" placeholder="Email Address"></input>
-            </div>
+          <label for="EmailAddress" class="form-label">Email Address</label>
+          <input type="text" class="form-control" id="EmailAddress" style="height: 37px">
+          </div>
 
           <div class="CompanyName">
-    
-            <label for="inputCompanyName" class="form-label">Company Name</label>
-            <input type="text" class="form-control" id="CompanyName" placeholder="Company Name"></input>
-            </div>
-
-          <div class="phonenumber"
-          
-            width="20px"
-            src="./assets/images/png-transparent-uruguay-flag-icon.png"
-            alt="Bandera Uruguaya"
-            >
-
-            <label for="phonenumber" class="form-label">Phone Number</label>
-            <input type="text" class="form-control" id="phonenumber" placeholder="Phone Number"></input>
-            </div>
-
-          <div class="Message"
-               style="height: 137px;
-               width: 400px;
-               left: 14px;
-               top: 385px;
-               border-radius: 5px;
-               padding: 9px 12px 0px 16px;
-               ">
-            <label for="inputMessage" class="form-label">Message</label>
-            <input type="text" class="form-control" id="Message" placeholder="Message"></input>
+          <label for="CompanyName" class="form-label">Company Name</label>
+          <input type="text" class="form-control" id="CompanyName" style="height: 37px">
           </div>
-  
-        
-          <div class="login">
-            <button class="button violet" onclick="login('Send')">Send</button>        
-      
+          
 
+          
+        <div class="input-group" style="top: 10px;">
+          <div class="input-group-text" id="btnGroupAddon" style="height: 37px">  
+              <img src="./assets/images/png-transparent-uruguay-flag-icon.png" 
+              width="30 px";>
+          </div>
+          
+          <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split" 
+          data-bs-toggle="dropdown"  style="height:37px">
+
+              <span class="visually-hidden"></span>
+              </button>
+              <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Uruguay</u></a></li>
+              <li><a class="dropdown-item" href="#">Colombia</a></li>
+              <li><a class="dropdown-item" href="#">Venezuela</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Latin America</a></li>
+              </ul>
+              <input type="number" class="form-control" placeholder="Phone Number" 
+              aria-label="Number input with button" style="height:37px">
+          </div>
+
+          <div class="Message">
+            
+            <label for="Message" class="form-label"></label>
+            <textarea class="form-control" placeholder="Message" id="Message" style="height: 137px"></textarea>
+            
+          </div>
+          
+          
+          <div class="d-grid gap-2";  >
+          
+          <button type="Send"  style="margin-top: 15px;" class="button violet" >Send</button>
+          
+          </div>
+
+      </form>
+    
     </div>
+  </div>
   </body>  
 </html>
