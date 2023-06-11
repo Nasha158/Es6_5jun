@@ -27,7 +27,6 @@
       </nav>
       </div>
     </div>
-
     <div class="button-nav">
       <div class="button-nav">
           <button class="button white" onclick="login('registro')">Login</button>
@@ -37,8 +36,9 @@
     
     </header>
     
-    <main class="main">
-    <h1>Talk to our product 
+<main class="main">
+  <div>  
+  <h1>Talk to our product 
       <br>analytics expert</h1>
     <p id="parrafo" nav class="p-container">
     Have questions about pricing plans, or Growty? Fill out the form and our product analytics expert will de in touch directly.</p>
@@ -52,13 +52,71 @@
           </nav>
         <p class="p-container">
       Have questions about pricing plans, or Growty? Fill out the form and our product analytics expert will de in touch directly.
-        </p>     
-  </body>
+        </p>   
+  </div>      
+        <div>
+        <form class="form-container" autocomplete="on">       
+          <div class="input-group">
+            <div class="row">
+                <div class="col">
+                <label for="FirstName" class="form-label">First Name</label>
+                <input type="FirstName" class="form-control" id="FirstName" style="height: 37px">
+                </div>
+  
+                <div class="col">
+                <label for="LastName" class="form-label">Last Name</label>
+                <input type="LastName" class="form-control" id="LastName" style="height: 37px">
+                </div>
+            </div>
+          </div>
+          
+            <div class="EmailAddress">
+            <label for="EmailAddress" class="form-label">Email Address</label>
+            <input type="text" class="form-control" id="EmailAddress" style="height: 37px">
+            </div>
+  
+            <div class="CompanyName">
+            <label for="CompanyName" class="form-label">Company Name</label>
+            <input type="text" class="form-control" id="CompanyName" style="height: 37px">
+            </div>
+            
+  
+            
+          <div class="input-group" style="top: 10px;">
+            <div class="input-group-text" id="btnGroupAddon" style="height: 37px">  
+                <img src="./assets/images/png-transparent-uruguay-flag-icon.png"
+                width="30 px">
+            </div>
+            
+            <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split" 
+            data-bs-toggle="dropdown"  style="height:37px">
+  
+                <span class="visually-hidden"></span>
+                </button>
+                <ul class="dropdown-menu">
+                </ul>
+                <input type="number" class="form-control" placeholder="Phone Number" 
+                aria-label="Number input with button" style="height:37px">
+            </div>
+  
+            <div class="Message">
+              
+              <label for="Message" class="form-label"></label>
+              <textarea class="form-control" placeholder="Message" id="Message" style="height: 137px"></textarea>
+              
+            </div>          
+            <div class="d-grid gap-2";  >
+            <button type="Send"  style="margin-top: 5px;" class="button violet" >Send</button>
+
+            </div>
+        </form>
+      </div>
+
     </main>
       
     <footer>
         <div class="footer">
-          <nav class= "footer1">
+          <div class= "footer1">
             <h6 style="font-size: 12px">United Kingdom</h6>
               <img src="./assets/images/icono ubicacion transparente-1.jpg"
                 alt="icono ubicacion"
@@ -67,16 +125,16 @@
                   30 Eastbourne Terrance
                   Paddington, London
                   W2 GLA, UK            
-                <nav class="phone"
+                <div class="phone"
                 style="font-size: 10px";>
                   <img src="./assets/images/icono telefono transparente-1.jpg"
                 alt="icono telefono"
                 style="width: 15px;">
                 +441351351051
-                </nav>
+                </div>
               </p>
-          </nav>
-          <nav class= "footer2">
+          </div>
+          <div class= "footer2">
             <h6 style="font-size: 12px">France</h6>
               <img src="./assets/images/icono ubicacion transparente-1.jpg"
                 alt="icono ubicacion"
@@ -85,83 +143,20 @@
               <p style="font-size: 10px";>
                   266 Place Ernest Granier
                   34000 Montpollier France
-                <nav class="phone"
+                <div class="phone"
                 style="font-size: 10px";>
                 <img src="./assets/images/icono telefono transparente-1.jpg"
                 alt="icono telefono"
                 style="width: 15px;">
                 +441351351051
-                </nav>
+                </div>
               </p>
-          </nav>
+          </div>
         </div>
     </footer>
     
-  </body>  
-</html>
-      <div>
-
-        <form class="form-container" autocomplete="on">       
-        <div class="input-group">
-          <div class="row">
-              <div class="col">
-              <label for="FirstName" class="form-label">First Name</label>
-              <input type="FirstName" class="form-control" id="FirstName" style="height: 37px">
-              </div>
-
-              <div class="col">
-              <label for="LastName" class="form-label">Last Name</label>
-              <input type="LastName" class="form-control" id="LastName" style="height: 37px">
-              </div>
-          </div>
-        </div>
-        
-          <div class="EmailAddress">
-          <label for="EmailAddress" class="form-label">Email Address</label>
-          <input type="text" class="form-control" id="EmailAddress" style="height: 37px">
-          </div>
-
-          <div class="CompanyName">
-          <label for="CompanyName" class="form-label">Company Name</label>
-          <input type="text" class="form-control" id="CompanyName" style="height: 37px">
-          </div>
-          
-
-          
-        <div class="input-group" style="top: 10px;">
-          <div class="input-group-text" id="btnGroupAddon" style="height: 37px">  
-              <img src="./assets/images/png-transparent-uruguay-flag-icon.png"
-              width="30 px">
-          </div>
-          
-          <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split" 
-          data-bs-toggle="dropdown"  style="height:37px">
-
-              <span class="visually-hidden"></span>
-              </button>
-              <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Uruguay</u></a></li>
-              <li><a class="dropdown-item" href="#">Colombia</a></li>
-              <li><a class="dropdown-item" href="#">Venezuela</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Latin America</a></li>
-              </ul>
-              <input type="number" class="form-control" placeholder="Phone Number" 
-              aria-label="Number input with button" style="height:37px">
-          </div>
-
-          <div class="Message">
-            
-            <label for="Message" class="form-label"></label>
-            <textarea class="form-control" placeholder="Message" id="Message" style="height: 137px"></textarea>
-            
-          </div>          
-          <div class="d-grid gap-2";  >
-          <button type="Send"  style="margin-top: 15px;" class="button violet" >Send</button>
-          
-          </div>
-
-      </form>
+  </body>     
+        <div>
     
     </div>
   </div>
