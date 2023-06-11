@@ -1,6 +1,6 @@
 * Design*/
 * {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Inter', sans-serif;
   border-radius: 20px;
   box-sizing: border-box;
 }
@@ -11,7 +11,7 @@ body.body {
 }
 
 .body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Inter', sans-serif;
   height: 845px;
 }
 
@@ -37,8 +37,10 @@ body.body {
   display: flex;}
 
 .p-container {
-  width: 611px;
-  padding-top: 20px;
+  width: 500px;
+  padding-top: 0px;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
 }
 
 .space-menu {
@@ -47,9 +49,9 @@ body.body {
   justify-content:space-between;
   flex-direction: row;
   align-items: center;
-  padding: 20px;
+  padding: 10px;
   gap: 20px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Inter', sans-serif;
   color: black;
   text-decoration: none;
   text-align: center;
@@ -59,16 +61,16 @@ body.body {
 
 
 .button-nav {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Inter', sans-serif;
   display: flex;
   justify-content: flex-end;
   height: 37px;
-  padding-right: 20px;
+  padding-right: 65px;
 }
 
 /* Design button login-singup */
 .button {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Inter', sans-serif;
   min-width: 76.5px;
   height: 37px;
   border: solid 0px;
@@ -98,7 +100,7 @@ margin: 0px 150px;}
 
 /* Form */
 .form-container {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Inter', sans-serif;
   width: 433px;
   height: 500px;
   left: calc(50% - 500px / 2 + 433px);
@@ -113,7 +115,7 @@ margin: 0px 150px;}
 }
 
 .img-container {
-  padding-top: 10px;
+  padding-top: 0px;
 }
 
 .form-control {
@@ -128,19 +130,19 @@ margin: 0px 150px;}
 
 /* Footer */
 .footer {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Inter', sans-serif;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  padding-top: 25px;
-  gap: 140px;
+  padding-top: 30px;
+  gap: 125px;
   position: absolute;
   width: 611px;
   height: 142px;
-  left: 187px;
+  left: 215px;
   top: 641px;
-  margin-top: 30px;
-  margin-left: 70px;
+  margin-top: 25px;
+  margin-left: 140px;
   
   }
   .footer1 {
@@ -176,17 +178,15 @@ margin: 0px 150px;}
   
  
 #parrafos {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
   line-height: 19px;
   display: flex;
   align-items: center;
   position: absolute;
   width: 468px;
   height: 106px;
-}
+  }
 
 #h1 {
   position: absolute;
@@ -194,7 +194,7 @@ margin: 0px 150px;}
   height: 78px;
   left: 74px;
   top: 128px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 32px;
   font-weight: 800;
   line-height: 39px;
@@ -203,7 +203,7 @@ margin: 0px 150px;}
 }
 
 #h2 {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   line-height: 22px;
