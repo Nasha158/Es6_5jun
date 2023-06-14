@@ -44,7 +44,7 @@ body.body {
 }
 
 .space-menu {
-  margin-top: 10px;
+  margin-top: 20px;
   display: -webkit-box;
   justify-content:space-between;
   flex-direction: row;
@@ -65,7 +65,7 @@ body.body {
   display: flex;
   justify-content: flex-end;
   height: 37px;
-  padding-right: 65px;
+  padding-right: 25px;
 }
 
 /* Design button login-singup */
@@ -142,7 +142,7 @@ margin: 0px 150px;}
   left: 215px;
   top: 641px;
   margin-top: 25px;
-  margin-left: 140px;
+  margin-left: 70px;
   
   }
   .footer1 {
