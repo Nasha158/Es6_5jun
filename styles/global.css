@@ -17,6 +17,7 @@ body.body {
 
 /*Header*/
 
+
 .logo-menu{
   margin: 20px;}
   
@@ -24,18 +25,14 @@ body.body {
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
-
   display: flex;
   letter-spacing: 0.05em;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
-  margin: 0px 180px 0px 180px}
+  align-items: baseline;
+  margin: 0px 180px 0px 180px;}
 
-/* Menu */
-.menu {
-  display: flex;
-  align-items: baseline;}
+
 
 .p-container {
   width: 500px;
@@ -45,7 +42,7 @@ body.body {
 }
 
 .space-menu {
-  margin-top: 20px;
+  margin-top: 10px;
   display: -webkit-box;
   justify-content:space-between;
   flex-direction: row;
@@ -61,12 +58,12 @@ body.body {
 
 
 
-.button-nav {
+.button-log {
   font-family: 'Inter', sans-serif;
   display: flex;
   justify-content: flex-end;
   height: 37px;
-  padding-right: 25px;
+  padding-right: 65px;
 }
 
 /* Design button login-singup */
@@ -143,7 +140,7 @@ margin: 0px 150px;}
   left: 215px;
   top: 641px;
   margin-top: 25px;
-  margin-left: 70px;
+  margin-left: 140px;
   
   }
   .footer1 {
@@ -151,7 +148,6 @@ margin: 0px 150px;}
     width: 205px;
     left: 5px;
     top: 11px;
-    justify-content: space-between;
     display: inline-block;
     flex-direction: column;
     justify-content: space-between;
@@ -177,7 +173,6 @@ margin: 0px 150px;}
     
   }
   
- 
 #parrafos {
   font-family: 'Inter', sans-serif;
   font-style: normal;
