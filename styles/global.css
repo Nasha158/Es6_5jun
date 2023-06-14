@@ -34,7 +34,8 @@ body.body {
 
 /* Menu */
 .menu {
-  display: flex;}
+  display: flex;
+  align-items: baseline;}
 
 .p-container {
   width: 500px;
