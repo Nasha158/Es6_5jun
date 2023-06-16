@@ -43,7 +43,7 @@ body.body {
 
   display: flex;
   justify-content: space-around;
-  padding-right: 480px;
+  padding-right: 400px;
   gap: 10px;
 }
 .space-menu {
