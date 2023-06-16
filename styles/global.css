@@ -40,6 +40,7 @@ body.body {
   font-size: 16px;
 }
 .Space-Menu {
+
   display: flex;
   justify-content: space-around;
   padding-right: 480px;
@@ -134,16 +135,13 @@ body.body {
   font-family: "Inter", sans-serif;
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  padding-top: 30px;
-  gap: 100px;
-  position: absolute;
+  align-items: flex-start; 
+  gap: 100px;  
   width: 611px;
   height: 142px;
   left: 215px;
-  top: 641px;
-  margin-top: 25px;
-  margin-left: 140px;
+  top: 641px;  
+  margin-left: 230px;
 }
 .footer1 {
   height: 120px;
