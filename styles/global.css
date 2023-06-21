@@ -100,7 +100,7 @@ body.body {
 }
 
 /* Form */
-.form-container {
+#form-container {
   font-family: "Inter", sans-serif;
   width: 433px;
   height: 500px;

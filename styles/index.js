@@ -1,7 +1,7 @@
 function login(Send) {
-    // alert('Felicitaciones haz dado click al boton: ' + nombre)
+    // Alert('Felicitaciones haz cargado tus Datos)
   
-    const valueConfirm = confirm("DATOS INGRESADOS");
+    const valueConfirm = confirm("DATOS DEL FORMULARIO");
   
     let messageResult = "";
   
@@ -15,12 +15,12 @@ function login(Send) {
   }
 
 
-
-/*document.querySelector("form")
+  document.querySelector("#form-container")
   .addEventListener("submit", e => {
-    e.preventDefault()
-    const data = Object.fromEntries( 
-        new FormData(e.target)
-    )
+    e.preventDefault();
+    const data = Object.fromEntries(
+      new FormData(e.target)
+    );
+    
     alert(JSON.stringify(data))
-  })*/
+  });
